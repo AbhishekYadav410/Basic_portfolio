@@ -2,8 +2,6 @@
 
 > Modern, high-performance, and responsive developer portfolio website built using vanilla HTML5, CSS3, and JavaScript.
 
-![Portfolio Preview](assets/images/profile.jpg)
-
 ## 📌 Overview
 
 This repository hosts the personal portfolio of **Abhishek Yadav**, an aspiring Software Engineer pursuing a B.Tech in Computer Science & Engineering (Artificial Intelligence) at **KIET Group of Institutions (AKTU)**. 
