@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>Abhishek Yadav | Software Engineer & AI Developer Portfolio</title>
+  <meta name="title" content="Abhishek Yadav | Software Engineer & AI Developer Portfolio">
+  <meta name="description" content="Portfolio of Abhishek Yadav - Aspiring Software Engineer, B.Tech CSE (AI) at KIET Group of Institutions. Hands-on experience in Machine Learning, Spring Boot, MySQL, and AWS Cloud Architecture.">
+  <meta name="keywords" content="Abhishek Yadav, Software Engineer, Machine Learning, Spring Boot, Java, Python, KIET, AWS Certified, Web Development, Portfolio">
+  <meta name="author" content="Abhishek Yadav">
+
+  <!-- Open Graph / Social Media Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Abhishek Yadav | Software Engineer & AI Developer">
+  <meta property="og:description" content="Explore projects, skills, certifications, and experience in Machine Learning, Full-Stack Development, and Cloud Computing.">
+  <meta property="og:image" content="assets/images/profile.jpg">
+
+  <link rel="icon" type="image/jpeg" href="assets/images/profile.jpg">
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Background Decorative Grid & Glows -->
+  <div class="bg-decoration" aria-hidden="true">
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+    <div class="ambient-glow glow-3"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo" aria-label="Abhishek Yadav Home">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-name">Abhishek</span>
+        <span class="logo-accent">Yadav</span>
+        <span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions (Theme Toggle & Resume) -->
+      <div class="nav-actions">
+        <button id="theme-toggle" class="icon-btn theme-btn" aria-label="Toggle Theme" title="Switch Theme">
+          <svg class="theme-icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="theme-icon moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="assets/docs/Abhishek_Yadav_Resume.pdf" download="Abhishek_Yadav_Resume.pdf" class="btn btn-sm btn-outline header-resume-btn" target="_blank" rel="noopener noreferrer">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          <span>Resume</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-toggle" class="mobile-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-indicator"></span>
+            <span>Available for Internships & Full-time Roles</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Abhishek Yadav</span>
+          </h1>
+
+          <div class="hero-role-wrapper">
+            <span class="role-static">I am an&nbsp;</span>
+            <span id="typewriter" class="role-dynamic"></span>
+            <span class="typing-cursor">|</span>
+          </div>
+
+          <p class="hero-description">
+            Aspiring Software Engineer with a solid foundation in Data Structures, Algorithms, and Object-Oriented Programming. 
+            Hands-on experience in <strong>Machine Learning</strong>, <strong>Full-Stack Development</strong> (Spring Boot & MySQL), 
+            and <strong>Cloud Architecture</strong>. Passionate about building scalable, high-impact intelligent systems.
+          </p>
+
+          <!-- Call to Action Buttons -->
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              <span>Explore Projects</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <span>Get In Touch</span>
+            </a>
+            <a href="assets/docs/Abhishek_Yadav_Resume.pdf" class="btn btn-ghost" download="Abhishek_Yadav_Resume.pdf" target="_blank" rel="noopener noreferrer">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+              <span>Download CV</span>
+            </a>
+          </div>
+
+          <!-- Social Links -->
+          <div class="hero-social-links">
+            <a href="https://github.com/AbhishekYadav410" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/abhishek-yadav" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            <a href="mailto:abhirao642@gmail.com" class="social-link" title="Email: abhirao642@gmail.com">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </a>
+            <a href="tel:+918279452164" class="social-link" title="Phone: +91 8279452164">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Avatar Column with Glowing Frame -->
+        <div class="hero-visual">
+          <div class="avatar-card-wrapper">
+            <div class="avatar-glow-ring"></div>
+            <div class="avatar-inner">
+              <img src="assets/images/profile.jpg" alt="Abhishek Yadav Profile Avatar" class="avatar-img" loading="eager">
+              <div class="avatar-overlay-gradient"></div>
+            </div>
+
+            <!-- Floating Badges -->
+            <div class="floating-badge badge-top-right">
+              <div class="badge-icon">⚡</div>
+              <div class="badge-text">
+                <span class="badge-label">Certified</span>
+                <span class="badge-sub">AWS Solutions & AI</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom-left">
+              <div class="badge-icon">🤖</div>
+              <div class="badge-text">
+                <span class="badge-label">AI & ML</span>
+                <span class="badge-sub">FastAPI + LangGraph</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Metrics Strip -->
+      <div class="container hero-stats-container">
+        <div class="stats-card">
+          <div class="stat-item">
+            <span class="stat-number">4+</span>
+            <span class="stat-label">AWS & AI Certifications</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">4+</span>
+            <span class="stat-label">Core Engineering Projects</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">B.Tech</span>
+            <span class="stat-label">CSE (Artificial Intelligence)</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Clean Code & Version Control</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">// Professional Background</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-col">
+            <h3 class="about-heading">Problem Solver, Software Engineer & AI Enthusiast</h3>
+            <p class="about-p">
+              I am an aspiring Software Engineer currently pursuing my <strong>B.Tech in Computer Science & Engineering (Artificial Intelligence)</strong> 
+              at <strong>KIET Group of Institutions (AKTU)</strong>. I hold a strong foundation in core computer science fundamentals 
+              including <strong>Data Structures, Algorithms, Object-Oriented Programming, and Database Management Systems</strong>.
+            </p>
+            <p class="about-p">
+              My technical journey bridges the best of both worlds: architecting scalable backend web systems with 
+              <strong>Spring Boot, Java, and MySQL</strong>, and building end-to-end intelligent systems utilizing 
+              <strong>Machine Learning algorithms, Python, and modern Agentic AI workflows</strong>.
+            </p>
+            <p class="about-p">
+              I possess an analytical, problem-solving mindset, a deep passion for writing clean, maintainable code, and 
+              proven experience in collaborative development and version control using Git.
+            </p>
+
+            <div class="about-key-points">
+              <div class="key-point-card">
+                <div class="point-icon">🚀</div>
+                <div>
+                  <h4 class="point-title">System Architecture</h4>
+                  <p class="point-desc">Scalable REST APIs, relational schemas, CRUD patterns, and clean MVC architecture.</p>
+                </div>
+              </div>
+              <div class="key-point-card">
+                <div class="point-icon">🧠</div>
+                <div>
+                  <h4 class="point-title">Machine Learning & AI</h4>
+                  <p class="point-desc">Classifiers (Decision Tree, KNN), feature engineering, RAG, and LLM integrations.</p>
+                </div>
+              </div>
+              <div class="key-point-card">
+                <div class="point-icon">☁️</div>
+                <div>
+                  <h4 class="point-title">Cloud Infrastructure</h4>
+                  <p class="point-desc">AWS Certified Architect & Practitioner with knowledge in high-availability systems.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education Timeline Column -->
+          <div class="about-timeline-col">
+            <h3 class="about-heading"><span class="accent-text">Education</span> Journey</h3>
+            
+            <div class="timeline">
+              <!-- Item 1 -->
+              <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content card-glass">
+                  <div class="timeline-period">Sept. 2023 – Present</div>
+                  <h4 class="timeline-degree">B.Tech – Computer Science & Engineering (Artificial Intelligence)</h4>
+                  <p class="timeline-institute">KIET Group of Institutions, AKTU</p>
+                  <p class="timeline-note">Specializing in AI architectures, algorithms, data engineering, distributed systems, and machine learning models.</p>
+                  <div class="timeline-tags">
+                    <span class="tag">DSA</span>
+                    <span class="tag">AI / ML</span>
+                    <span class="tag">DBMS</span>
+                    <span class="tag">Java</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content card-glass">
+                  <div class="timeline-period">2020 – 2022</div>
+                  <h4 class="timeline-degree">Senior Secondary (Class XII)</h4>
+                  <p class="timeline-institute">Kendriya Vidyalaya</p>
+                  <p class="timeline-note">Central Board of Secondary Education (CBSE) with rigorous preparation in Mathematics, Physics, and Chemistry.</p>
+                </div>
+              </div>
+
+              <!-- Item 3 -->
+              <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content card-glass">
+                  <div class="timeline-period">Completed 2020</div>
+                  <h4 class="timeline-degree">High School (Class X)</h4>
+                  <p class="timeline-institute">Mount Carmel School</p>
+                  <p class="timeline-note">Indian Certificate of Secondary Education (ICSE) with academic excellence and computer application fundamentals.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">// Professional Work</span>
+          <h2 class="section-title">Industry Experience</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="experience-card card-glass">
+          <div class="exp-header">
+            <div class="exp-title-group">
+              <span class="exp-role-badge">Internship</span>
+              <h3 class="exp-role">Machine Learning Intern</h3>
+              <h4 class="exp-company">CodVeda Technologies</h4>
+            </div>
+            <div class="exp-meta">
+              <span class="exp-location">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                Remote
+              </span>
+              <span class="exp-date">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                Nov. 2025 – Dec. 2025
+              </span>
+            </div>
+          </div>
+
+          <div class="exp-body">
+            <ul class="exp-list">
+              <li>
+                <span class="bullet-glow"></span>
+                <span>Developed, fine-tuned, and evaluated <strong>Decision Tree and K-Nearest Neighbors (KNN)</strong> classifiers on complex real-world datasets to derive predictive insights.</span>
+              </li>
+              <li>
+                <span class="bullet-glow"></span>
+                <span>Spearheaded the <strong>end-to-end data preprocessing pipeline</strong>, including handling missing values, outlier detection, categorical encoding, and robust feature scaling.</span>
+              </li>
+              <li>
+                <span class="bullet-glow"></span>
+                <span>Conducted exhaustive model evaluation applying statistical performance metrics including <strong>accuracy, precision, recall, F1-score, and confusion matrix diagnostics</strong>.</span>
+              </li>
+              <li>
+                <span class="bullet-glow"></span>
+                <span>Optimized classification performance and mitigated variance/overfitting using targeted <strong>hyperparameter tuning</strong> and cross-validation strategies.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="exp-tech-stack">
+            <span class="tech-pill">Python</span>
+            <span class="tech-pill">Scikit-Learn</span>
+            <span class="tech-pill">Decision Trees</span>
+            <span class="tech-pill">KNN</span>
+            <span class="tech-pill">Feature Engineering</span>
+            <span class="tech-pill">Model Evaluation</span>
+            <span class="tech-pill">Pandas / NumPy</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNICAL SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">// Capabilities & Tools</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming Languages -->
+          <div class="skill-category card-glass">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <h3 class="category-title">Programming Languages</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag"><span class="skill-dot"></span> Java</div>
+              <div class="skill-tag"><span class="skill-dot"></span> Python</div>
+              <div class="skill-tag"><span class="skill-dot"></span> C++</div>
+              <div class="skill-tag"><span class="skill-dot"></span> C</div>
+              <div class="skill-tag"><span class="skill-dot"></span> JavaScript</div>
+            </div>
+          </div>
+
+          <!-- Web & Frameworks -->
+          <div class="skill-category card-glass">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+              </div>
+              <h3 class="category-title">Web & Frameworks</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag"><span class="skill-dot"></span> Spring Boot</div>
+              <div class="skill-tag"><span class="skill-dot"></span> Thymeleaf</div>
+              <div class="skill-tag"><span class="skill-dot"></span> HTML5</div>
+              <div class="skill-tag"><span class="skill-dot"></span> CSS3</div>
+              <div class="skill-tag"><span class="skill-dot"></span> RESTful APIs</div>
+              <div class="skill-tag"><span class="skill-dot"></span> FastAPI (Python)</div>
+            </div>
+          </div>
+
+          <!-- AI & Machine Learning -->
+          <div class="skill-category card-glass">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg>
+              </div>
+              <h3 class="category-title">Machine Learning & AI</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag"><span class="skill-dot"></span> Decision Trees</div>
+              <div class="skill-tag"><span class="skill-dot"></span> KNN Classification</div>
+              <div class="skill-tag"><span class="skill-dot"></span> Scikit-Learn</div>
+              <div class="skill-tag"><span class="skill-dot"></span> Feature Scaling & Engineering</div>
+              <div class="skill-tag"><span class="skill-dot"></span> Model Evaluation Metrics</div>
+              <div class="skill-tag"><span class="skill-dot"></span> Generative AI & LangGraph</div>
+              <div class="skill-tag"><span class="skill-dot"></span> Vector RAG (ChromaDB)</div>
+            </div>
+          </div>
+
+          <!-- Databases -->
+          <div class="skill-category card-glass">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+              </div>
+              <h3 class="category-title">Databases & Storage</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag"><span class="skill-dot"></span> MySQL</div>
+              <div class="skill-tag"><span class="skill-dot"></span> SQL Querying</div>
+              <div class="skill-tag"><span class="skill-dot"></span> Relational Schema Design</div>
+              <div class="skill-tag"><span class="skill-dot"></span> CRUD Operations</div>
+              <div class="skill-tag"><span class="skill-dot"></span> Hibernate / JPA</div>
+            </div>
+          </div>
+
+          <!-- Tools & Platforms -->
+          <div class="skill-category card-glass">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+              </div>
+              <h3 class="category-title">Tools & Platforms</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag"><span class="skill-dot"></span> Git</div>
+              <div class="skill-tag"><span class="skill-dot"></span> GitHub</div>
+              <div class="skill-tag"><span class="skill-dot"></span> Linux</div>
+              <div class="skill-tag"><span class="skill-dot"></span> VS Code</div>
+              <div class="skill-tag"><span class="skill-dot"></span> IntelliJ IDEA</div>
+              <div class="skill-tag"><span class="skill-dot"></span> PyCharm</div>
+              <div class="skill-tag"><span class="skill-dot"></span> AWS Cloud</div>
+            </div>
+          </div>
+
+          <!-- Core CS Foundations -->
+          <div class="skill-category card-glass">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+              </div>
+              <h3 class="category-title">Core Computer Science</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag"><span class="skill-dot"></span> Data Structures & Algorithms</div>
+              <div class="skill-tag"><span class="skill-dot"></span> Object-Oriented Programming (OOP)</div>
+              <div class="skill-tag"><span class="skill-dot"></span> Database Management (DBMS)</div>
+              <div class="skill-tag"><span class="skill-dot"></span> Operating Systems Basics</div>
+              <div class="skill-tag"><span class="skill-dot"></span> Problem Solving Mindset</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">// Featured Works</span>
+          <h2 class="section-title">Projects Showcase</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="project-filter-bar">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
+          <button class="filter-btn" data-filter="ai">Machine Learning & AI</button>
+          <button class="filter-btn" data-filter="web">Web Development</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+          
+          <!-- PROJECT 1: TelConnect -->
+          <article class="project-card card-glass" data-category="ai fullstack">
+            <div class="project-badge-row">
+              <span class="proj-badge badge-featured">Cognizant Hackathon</span>
+              <span class="proj-badge">AI Platform</span>
+            </div>
+            
+            <h3 class="project-title">TelConnect — AI Telecom Intelligence & Autonomous Resolution</h3>
+            <p class="project-desc">
+              An enterprise-grade telecom complaint intelligence platform built to PRD v7.0. Features real-time statistical anomaly detection 
+              for proactive outage identification before high complaint surges, a 6-node LangGraph StateGraph autonomous agent with Groq Whisper voice input, 
+              real-time line diagnostics (ping, jitter, packet loss), and ChromaDB dense vector RAG knowledge retrieval.
+            </p>
+
+            <div class="project-highlights">
+              <div class="highlight-item">
+                <span class="check-icon">✓</span> LangGraph 6-node multi-task autonomous state graph
+              </div>
+              <div class="highlight-item">
+                <span class="check-icon">✓</span> Real-time network telemetry diagnostics card
+              </div>
+              <div class="highlight-item">
+                <span class="check-icon">✓</span> Rolling baseline anomaly engine & root-cause dossiers
+              </div>
+            </div>
+
+            <div class="project-tech-tags">
+              <span>Python</span>
+              <span>FastAPI</span>
+              <span>React</span>
+              <span>LangGraph</span>
+              <span>ChromaDB</span>
+              <span>DistilBERT</span>
+              <span>Scikit-learn</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="https://github.com/AbhishekYadav410/TelConnect_NEW" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                <svg viewBox="0 0 24 24" fill="currentColor" class="btn-icon"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                <span>View Repository</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: Hostel Room Allotment System -->
+          <article class="project-card card-glass" data-category="fullstack web">
+            <div class="project-badge-row">
+              <span class="proj-badge badge-primary">Full-Stack Web App</span>
+              <span class="proj-badge">Spring Boot + MySQL</span>
+            </div>
+
+            <h3 class="project-title">Hostel Room Allotment System</h3>
+            <p class="project-desc">
+              A comprehensive full-stack enterprise web application built using Spring Boot, MySQL, and Thymeleaf. 
+              Eliminates administrative bottlenecks and room assignment errors by automating the end-to-end allocation process. 
+              Features complete CRUD operations for student registration, room capacity management, and relational database queries.
+            </p>
+
+            <div class="project-highlights">
+              <div class="highlight-item">
+                <span class="check-icon">✓</span> Complete CRUD operations for room allocation & students
+              </div>
+              <div class="highlight-item">
+                <span class="check-icon">✓</span> Relational schema design with normalized MySQL tables
+              </div>
+              <div class="highlight-item">
+                <span class="check-icon">✓</span> Responsive Thymeleaf templates with clean server-side rendering
+              </div>
+            </div>
+
+            <div class="project-tech-tags">
+              <span>Java</span>
+              <span>Spring Boot</span>
+              <span>MySQL</span>
+              <span>Thymeleaf</span>
+              <span>Hibernate</span>
+              <span>CSS3</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="https://github.com/AbhishekYadav410/Spring-boot-web-application" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                <svg viewBox="0 0 24 24" fill="currentColor" class="btn-icon"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                <span>View Repository</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: Machine Learning Models Suite -->
+          <article class="project-card card-glass" data-category="ai">
+            <div class="project-badge-row">
+              <span class="proj-badge badge-accent">ML Pipeline</span>
+              <span class="proj-badge">Decision Tree & KNN</span>
+            </div>
+
+            <h3 class="project-title">Machine Learning Models Suite</h3>
+            <p class="project-desc">
+              An end-to-end machine learning experimentation pipeline covering data cleaning, missing value handling, 
+              feature scaling, and model training. Implemented and benchmarked Decision Tree and K-Nearest Neighbors (KNN) algorithms 
+              with comprehensive performance metrics (accuracy, precision, recall, confusion matrix) and hyperparameter tuning.
+            </p>
+
+            <div class="project-highlights">
+              <div class="highlight-item">
+                <span class="check-icon">✓</span> End-to-end data preprocessing & feature scaling pipeline
+              </div>
+              <div class="highlight-item">
+                <span class="check-icon">✓</span> Comparative benchmarking of Decision Tree vs. KNN
+              </div>
+              <div class="highlight-item">
+                <span class="check-icon">✓</span> Multi-metric evaluation and confusion matrix diagnostics
+              </div>
+            </div>
+
+            <div class="project-tech-tags">
+              <span>Python</span>
+              <span>Scikit-Learn</span>
+              <span>Pandas</span>
+              <span>NumPy</span>
+              <span>Decision Trees</span>
+              <span>KNN</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="https://github.com/AbhishekYadav410/Machine-Learning-Models-Suite" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                <svg viewBox="0 0 24 24" fill="currentColor" class="btn-icon"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                <span>View Repository</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- PROJECT 4: Personal Portfolio Website -->
+          <article class="project-card card-glass" data-category="web">
+            <div class="project-badge-row">
+              <span class="proj-badge">Web Application</span>
+              <span class="proj-badge">Modern UI/UX</span>
+            </div>
+
+            <h3 class="project-title">Personal Developer Portfolio</h3>
+            <p class="project-desc">
+              Designed and developed a responsive, accessible, high-performance portfolio using semantic HTML5, CSS3, and modern JavaScript. 
+              Features a dynamic dual-theme engine (dark obsidian / light), typewriter role animations, glassmorphism design, interactive project filters, 
+              and automated repository versioning.
+            </p>
+
+            <div class="project-highlights">
+              <div class="highlight-item">
+                <span class="check-icon">✓</span> Zero third-party runtime frameworks for lightning-fast speeds
+              </div>
+              <div class="highlight-item">
+                <span class="check-icon">✓</span> Dual theme engine with local storage persistence
+              </div>
+              <div class="highlight-item">
+                <span class="check-icon">✓</span> Fully responsive mobile-first architecture
+              </div>
+            </div>
+
+            <div class="project-tech-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript (ES6+)</span>
+              <span>Glassmorphism</span>
+              <span>Git</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="https://github.com/AbhishekYadav410/Basic_portfolio" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                <svg viewBox="0 0 24 24" fill="currentColor" class="btn-icon"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                <span>View Repository</span>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section class="section certs-section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">// Credentials & Badges</span>
+          <h2 class="section-title">Certifications</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="certs-grid">
+          <!-- Cert 1 -->
+          <div class="cert-card card-glass">
+            <div class="cert-icon-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+            </div>
+            <div class="cert-content">
+              <div class="cert-date">Nov. 2025</div>
+              <h3 class="cert-name">AWS Certified Cloud Practitioner</h3>
+              <p class="cert-issuer">Amazon Web Services (AWS)</p>
+              <p class="cert-detail">Fundamental validation of overall understanding of the AWS Cloud platform, global infrastructure, security, compliance, and cloud economics.</p>
+              <div class="cert-badge-tag">Cloud Foundations</div>
+            </div>
+          </div>
+
+          <!-- Cert 2 -->
+          <div class="cert-card card-glass">
+            <div class="cert-icon-badge ai-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+            </div>
+            <div class="cert-content">
+              <div class="cert-date">Oct. 2025</div>
+              <h3 class="cert-name">Generative AI</h3>
+              <p class="cert-issuer">OutSkill</p>
+              <p class="cert-detail">Core training in large language models (LLMs), prompt design, multi-modal applications, and autonomous agent workflows.</p>
+              <div class="cert-badge-tag">Generative AI</div>
+            </div>
+          </div>
+
+          <!-- Cert 3 -->
+          <div class="cert-card card-glass">
+            <div class="cert-icon-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="9" x2="15" y2="15"></line><line x1="15" y1="9" x2="9" y2="15"></line></svg>
+            </div>
+            <div class="cert-content">
+              <div class="cert-date">April 2026</div>
+              <h3 class="cert-name">AWS Certified AI Practitioner</h3>
+              <p class="cert-issuer">Amazon Web Services (AWS)</p>
+              <p class="cert-detail">Specialized credential emphasizing machine learning concepts, foundation model selection, Amazon Bedrock, SageMaker, and responsible AI governance.</p>
+              <div class="cert-badge-tag">AI & Machine Learning</div>
+            </div>
+          </div>
+
+          <!-- Cert 4 -->
+          <div class="cert-card card-glass">
+            <div class="cert-icon-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+            </div>
+            <div class="cert-content">
+              <div class="cert-date">May 2026</div>
+              <h3 class="cert-name">AWS Certified Solutions Architect – Associate</h3>
+              <p class="cert-issuer">Amazon Web Services (AWS)</p>
+              <p class="cert-detail">In-depth expertise in designing resilient, high-performing, secure, and cost-optimized distributed cloud architectures on AWS.</p>
+              <div class="cert-badge-tag">Cloud Architecture</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">// Let's Connect</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Column -->
+          <div class="contact-info-col">
+            <h3 class="contact-heading">Let's discuss opportunities or collaborate on projects</h3>
+            <p class="contact-sub">
+              I am actively looking for software engineering internships, machine learning roles, and project collaborations. 
+              Feel free to reach out directly via email, phone, or LinkedIn!
+            </p>
+
+            <div class="contact-cards-list">
+              <a href="mailto:abhirao642@gmail.com" class="contact-card card-glass">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div>
+                  <span class="contact-label">Email</span>
+                  <span class="contact-val">abhirao642@gmail.com</span>
+                </div>
+              </a>
+
+              <a href="tel:+918279452164" class="contact-card card-glass">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div>
+                  <span class="contact-label">Phone</span>
+                  <span class="contact-val">+91 8279452164</span>
+                </div>
+              </a>
+
+              <a href="https://github.com/AbhishekYadav410" target="_blank" rel="noopener noreferrer" class="contact-card card-glass">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </div>
+                <div>
+                  <span class="contact-label">GitHub</span>
+                  <span class="contact-val">github.com/AbhishekYadav410</span>
+                </div>
+              </a>
+
+              <a href="https://www.linkedin.com/in/abhishek-yadav" target="_blank" rel="noopener noreferrer" class="contact-card card-glass">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </div>
+                <div>
+                  <span class="contact-label">LinkedIn</span>
+                  <span class="contact-val">linkedin.com/in/abhishek-yadav</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form Column -->
+          <div class="contact-form-col">
+            <form id="contact-form" class="contact-form card-glass" novalidate>
+              <h3 class="form-title">Send a Direct Message</h3>
+              
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="e.g. John Doe" required>
+                <span class="field-error" id="name-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="e.g. john@example.com" required>
+                <span class="field-error" id="email-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" name="subject" class="form-input" placeholder="e.g. Internship Opportunity / Collaboration" required>
+                <span class="field-error" id="subject-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" rows="5" class="form-input form-textarea" placeholder="Write your message here..." required></textarea>
+                <span class="field-error" id="message-error"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="#home" class="logo footer-logo">
+          <span class="logo-bracket">&lt;</span>
+          <span class="logo-name">Abhishek</span>
+          <span class="logo-accent">Yadav</span>
+          <span class="logo-bracket">/&gt;</span>
+        </a>
+        <p class="footer-tagline">Building robust, scalable software and intelligent ML systems.</p>
+      </div>
+
+      <div class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-right">
+        <p class="copyright">© 2026 Abhishek Yadav. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button id="scroll-top-btn" class="scroll-top-btn" aria-label="Scroll to top" title="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <!-- Toast Notification Container -->
+  <div id="toast" class="toast" role="alert" aria-live="assertive">
+    <div class="toast-icon">✓</div>
+    <div class="toast-message" id="toast-message">Message sent successfully!</div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>
