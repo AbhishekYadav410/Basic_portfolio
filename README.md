@@ -70,8 +70,6 @@ To preview or run this website locally:
 
 ## 📬 Contact & Connect
 
-- **Email**: [abhirao642@gmail.com](mailto:abhirao642@gmail.com)
-- **Phone**: [+91 8279452164](tel:+918279452164)
 - **GitHub**: [github.com/AbhishekYadav410](https://github.com/AbhishekYadav410)
 - **LinkedIn**: [linkedin.com/in/abhishek-yadav](https://www.linkedin.com/in/abhishek-yadav)
 
